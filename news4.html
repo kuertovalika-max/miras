@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты — МИРАС</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contacts-page">
+
+<header class="header">
+    <div class="container">
+        <!-- Логотип: SVG волны + Текст -->
+        <div class="logo">
+                    <a href="index.html" class="logo" style="text-decoration: none; display: flex; align-items: center;">
+            <svg class="waves-svg" viewBox="0 0 120 40" xmlns="http://www.w3.org">
+                <!-- Светлая волна -->
+                <path d="M40 5 Q70 0 110 15 Q80 25 40 5" fill="#ADC8D9" />
+                <!-- Темная волна -->
+                <path d="M10 35 Q40 10 90 25 Q50 45 10 35" fill="#132B4A" />
+            </svg>
+            <span class="brand-name">МИРАС</span>
+        </div>
+        </a>
+        <nav class="nav-menu">
+            <a href="news.html" class="nav-item">НОВОСТИ</a>
+            <a href="news2.html" class="nav-item">О КОМПЛЕКСЕ</a>
+            <a href="news3.html" class="nav-item">УСЛУГИ</a>
+            <a href="news4.html" class="nav-item active">О НАС</a>
+        </nav>
+    </div>
+</header>
+
+<main class="contacts-container">
+    <div class="contacts-layout">
+        <!-- Левая колонка: Адрес, Телефон и Карта -->
+        <div class="info-side">
+            <div class="top-cards">
+                <div class="glass-card contact-box">
+                    <img src="location-icon.png" alt="" class="yellow-icon">
+                    <p>Адрес:<br>423450, Республика Татарстан, город Альметьевск, улица Шевченко, 55</p>
+                </div>
+                <div class="glass-card contact-box">
+                    <img src="phone-icon.png" alt="" class="yellow-icon">
+                    <p>Контакты:<br>Рецепция: 8(8553) 44-05-11<br>Эл. почта: Sok.Miras@tatar.ru</p>
+                </div>
+            </div>
+            <!-- Карта -->
+            <div class="contact-map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1234567890&source=constructor" width="100%" height="250" frameborder="0" allowfullscreen="true"></iframe></div>
+                    <div class="address-info"><p class="address-street">г. Альметьевск, ул. Шевченко, д. 55</p><p class="address-metro"><i class="fas fa-subway"></i> </p><div class="address-actions"><a href="https://yandex.ru/maps/?text=Москва,+ул.+Детская,+15" target="_blank" class="address-link"><i class="fas fa-directions"></i> Построить маршрут</a><a href="https://yandex.ru/maps/?what=Москва,+ул.+Детская,+15" target="_blank" class="address-link"><i class="fas fa-map"></i> Открыть в Яндекс.Картах</a></div></div>
+        <!-- Правая колонка: Форма -->
+        <div class="form-side glass-card">
+            <h2>ОБРАТНАЯ СВЯЗЬ</h2>
+            <form class="feedback-form">
+                <div class="form-grid">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Фамилия">
+                    <input type="email" placeholder="Эл.почта">
+                    <input type="tel" placeholder="Телефон">
+                </div>
+                <textarea placeholder="Добавьте сообщение..."></textarea>
+                <button type="submit" class="send-btn">Отправить</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+<footer class="main-footer">
+    <!-- Светло-голубая панель с логотипами -->
+    <div class="footer-top">
+        <div class="footer-container">
+            <!-- Герб Альметьевска -->
+            <div class="footer-logo">
+                <img src="./img/gerb.png" alt="Герб" class="gerb-img">
+            </div>
+
+            <!-- Социальные сети -->
+            <div class="footer-socials">
+                <a href="https://vk.com/miras.almet" target="_blank" class="social-item">
+                    <img src="./img/vk.png" alt="VK">
+                </a>
+                <a href="https://instagram.com" target="_blank" class="social-item">
+                    <img src="./img/inst.png" alt="Instagram">
+                    <span>INSTAGRAM</span>
+                </a>
+            </div>
+
+            <!-- Логотип Татнефть -->
+            <div class="footer-brand">
+                <img src="./img/tatnef.png" alt="TATNEFT">
+            </div>
+        </div>
+    </div>
+   
+</footer>
+
+</body>
+</html>

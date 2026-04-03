@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <!-- Логотип: SVG волны + Текст -->
+        <div class="logo">
+                    <a href="index.html" class="logo" style="text-decoration: none; display: flex; align-items: center;">
+            <svg class="waves-svg" viewBox="0 0 120 40" xmlns="http://www.w3.org">
+                <!-- Светлая волна -->
+                <path d="M40 5 Q70 0 110 15 Q80 25 40 5" fill="#ADC8D9" />
+                <!-- Темная волна -->
+                <path d="M10 35 Q40 10 90 25 Q50 45 10 35" fill="#132B4A" />
+            </svg>
+            <span class="brand-name">МИРАС</span>
+        </div>
+        </a>
+
+        <!-- Навигация -->
+        <nav class="nav-menu">
+            <a href="news.html" class="nav-item">НОВОСТИ</a>
+            <a href="news2.html" class="nav-item">О КОМПЛЕКСЕ</a>
+            <a href="news3.html" class="nav-item">УСЛУГИ</a>
+            <a href="news4.html" class="nav-item">О НАС</a>
+        </nav>
+    </div>
+</header>
+<main class="hero-section">
+    <div class="content-box">
+        <!-- Сетка с занятиями -->
+        <div class="lessons-grid">
+            <div class="lesson-item"><span class="dot"></span> ПИЛАТЕС</div>
+            <div class="lesson-item"><span class="dot"></span> БОСУ</div>
+            <div class="lesson-item"><span class="dot"></span> САЙКЛ</div>
+            <div class="lesson-item"><span class="dot"></span> КУНДАЛИНИ ЙОГА</div>
+            <div class="lesson-item"><span class="dot"></span> ДЖАМПИНГ</div>
+            <div class="lesson-item"><span class="dot"></span> СУСТАВНАЯ ГИМНАСТИКА</div>
+            <div class="lesson-item"><span class="dot"></span> АЭРОЙОГА</div>
+            <div class="lesson-item"><span class="dot"></span> ЗУМБА</div>
+        </div>
+
+        <!-- Заголовок справа -->
+        <div class="side-title">
+            <h1>ГРУППОВЫЕ<br>ЗАНЯТИЯ</h1>
+        </div>
+        <!-- Изображение людей (нужен PNG с прозрачным фоном) -->
+        <img src="./img/trener.png" alt="Тренеры" class="people-img">
+    </div>
+    <!-- Нижний слоган -->
+    <div class="slogan">
+        МИРАС — путешествие по воде и суше
+    </div>
+</main>
+<section class="services-section">
+    <div class="services-container">
+        <!-- Блок с видео слева -->
+        <div class="video-block">
+            <div class="video-placeholder">
+                <div class="play-button"></div>
+                <img src="./img/video.png" alt="Бассейн">
+            </div>
+        </div>
+<!-- Сетка услуг справа от видео -->
+<div class="services-grid">
+    <!-- Обычная карточка --> 
+    <div class="service-card"  onclick="window.location.href='news5.html';" style="cursor: pointer;">
+        <img src="./img/icon1.png" alt="" class="service-icon">
+        <p>БАССЕЙН</p>
+    </div>
+   
+
+    <div class="service-card" onclick="window.location.href='news6.html';" style="cursor: pointer;">
+        <img src="./img/icon2.png" alt="" class="service-icon">
+        <p>ТРЕНАЖЕРНЫЙ ЗАЛ</p>
+    </div>
+
+    <!-- Карточка с двумя иконками -->
+    <div class="service-card" onclick="window.location.href='news7.html';" style="cursor: pointer;">
+        <div class="double-icons">
+            <img src="./img/icon1.png" alt="" class="service-icon small">
+            <span class="plus">+</span>
+            <img src="./img/icon2.png" alt="" class="service-icon small">
+        </div>
+        <p>БАССЕЙН +<br>ТРЕНАЖЕРНЫЙ ЗАЛ</p>
+    </div>
+
+    <div class="service-card" onclick="window.location.href='news8.html';" style="cursor: pointer;">
+        <img src="./img/icon3.png" alt="" class="service-icon">
+        <p>ЦЕНТР ДОЛГОЛЕТИЯ</p>
+    </div>
+
+    <div class="service-card" onclick="window.location.href='news9.html';" style="cursor: pointer;">
+        <div class="double-icons">
+            <img src="./img/icon1.png" alt="" class="service-icon small">
+            <span class="plus">+</span>
+            <img src="./img/icon3.png" alt="" class="service-icon small">
+        </div>
+        <p>БАССЕЙН + ЗАЛ<br>ДОЛГОЛЕТИЯ</p>
+    </div>
+
+    <div class="service-card" onclick="window.location.href='news10.html';" style="cursor: pointer;">
+        <img src="./img/icon4.png" alt="" class="service-icon">
+        <p>ПРОЧИЕ УСЛУГИ</p>
+    </div>
+</div>
+
+
+    <!-- Нижняя полоса с текстом -->
+    <div class="description-bar">
+        <p>Спортивно-оздоровительный комплекс "МИРАС" предоставляет услуги посещения большого и детского бассейнов, тренажерного зала, универсального спортивного зала. Также в "МИРАС" есть возможность поиграть в настольный теннис, перекусить в кафе, при посещении большого бассейна посетить финскую сухую сауну.</p>
+    </div>
+</section>
+
+
+<footer class="main-footer">
+    <!-- Светло-голубая панель с логотипами -->
+    <div class="footer-top">
+        <div class="footer-container">
+            <!-- Герб Альметьевска -->
+            <div class="footer-logo">
+                <img src="./img/gerb.png" alt="Герб" class="gerb-img">
+            </div>
+
+            <!-- Социальные сети -->
+            <div class="footer-socials">
+                <a href="https://vk.com/miras.almet" target="_blank" class="social-item">
+                    <img src="./img/vk.png" alt="VK">
+                </a>
+                <a href="https://instagram.com" target="_blank" class="social-item">
+                    <img src="./img/inst.png" alt="Instagram">
+                    <span>INSTAGRAM</span>
+                </a>
+            </div>
+
+            <!-- Логотип Татнефть -->
+            <div class="footer-brand">
+                <img src="./img/tatnef.png" alt="TATNEFT">
+            </div>
+        </div>
+    </div>
+
+    <!-- Черная полоса в самом низу -->
+    <div class="footer-bottom">
+        <p>Made on Tilda</p>
+    </div>
+</footer>
+
+</body>
+</html>
